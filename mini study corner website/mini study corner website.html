@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Mini Study Corner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Mini Study Corner Website</h1>
+</header>
+
+<main>
+
+  <section id="part2">
+    <h2>Study Desk</h2>
+    <div class="desk">
+      <div class="object laptop">Laptop</div>
+      <div class="object coffee-cup">Coffee<br>Cup</div>
+      <div class="object notebook">Notebook</div>
+      <div class="object lamp">Lamp</div>
+      <div class="object phone">Phone</div>
+    </div>
+  </section>
+
+  <section id="part3">
+    <h2>Float Layout</h2>
+    <div class="float-wrap">
+      <div class="float-left">
+        <h3>About Me</h3>
+        <p>Hi, I'm a Mark John Espinosa, a student learning programming! I enjoy coding and web design, and I'm excited to improve my skills through this
+        exercise.
+      </div>
+      <div class="float-right">
+        <h3>Quote</h3>
+        <p class="quote">"Small steps every day build big results."</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="part4">
+    <h2>Z-Index Challenge</h2>
+    <div class="z-stage">
+      <div class="z-box z1">z-index: 1</div>
+      <div class="z-box z5">z-index: 5</div>
+      <div class="z-box z10">z-index: 10</div>
+    </div>
+    <div class="answer-box">
+      <strong>Why is the top box displayed above the others?</strong><br>
+      The box with <code>z-index: 10</code> sits on top because a higher z-index value
+      places an element closer to the viewer along the stacking (z) axis. All three boxes
+      overlap in the same 2D space, so the browser uses z-index to decide the paint order —
+      highest value wins.
+    </div>
+  </section>
+
+  <section id="part5">
+    <h2>Reflection</h2>
+    <ol>
+      <li>Which CSS property was the easiest to use? The easiest property was color or background-color, because it’s straightforward: you assign a value and instantly see the change.</li>
+      <li>Which property was the most challenging? The most challenging property was likely z-index, as it requires understanding of the stacking context and how elements are layered.</li>
+      <li>Where can sticky positioning be useful in real websites? Sticky positioning is useful for creating navigation bars that remain visible while scrolling, or for creating sections that stay in view as the user scrolls down the page.</li>
+      <li>What happens if z-index is removed? If z-index is removed, elements will be stacked in the order they appear in the HTML, with later elements appearing on top of earlier ones.</li>
+      <li>Why is relative positioning important when using absolute positioning? Relative positioning establishes a containing block for absolutely positioned child elements, allowing them to be positioned relative to their normal position within the document flow.</li>
+    </ol>
+  </section>
+</main>
+
+<footer>
+  <p style="text-align:center; padding:15px; background:#c1673b; color:white;">
+    © 2026 Mini Study Corner | Created by Mark John Espinosa
+  </p>
+</footer>
+
+</body>
+</html>

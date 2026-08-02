@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  table {
+    background: #eee;
+    padding: 10px;
+    border-radius: 8px;
+    border-spacing: 6px;
+  }
+  
+  input {
+    width: 190px;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+  }
+  
+  button {
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+  }

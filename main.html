@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mark John Espinosa — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="nav-mark">mark<span>.</span>espinosa</div>
+      <ul class="nav-links">
+        <li><a href="#intro" class="nav-link">Intro</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#facts" class="nav-link">Fun Facts</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="blob blob-a"></div>
+      <div class="blob blob-b"></div>
+      <div class="wrap">
+        <div class="eyebrow">Personal Portfolio</div>
+        <h1 class="name">Mark John Espinosa</h1>
+        <div class="role-line">
+          <span class="prefix">&gt;</span>
+          <span class="typed" id="typed-role"></span><span class="cursor"></span>
+        </div>
+        <p class="hero-desc">
+          A student who loves technology and continuous learning — building small projects,
+          leveling up frontend and backend skills, and working toward a future as a
+          full-stack developer.
+        </p>
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn btn-solid">View Portfolio</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+        <div class="scroll-cue">
+          <span>SCROLL</span>
+          <span class="arrow">↓</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="intro">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="num">01 / Introduction</span>
+          <h2 class="title">Watch My Intro</h2>
+        </div>
+        <div class="video-wrap reveal">
+          <div class="code-frame">
+            <div class="code-frame-bar">
+              <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+              <span class="filename">self-intro.mp4</span>
+            </div>
+            <video controls poster="photo/Mark.jpg">
+              <source src="video/me.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+        <p class="hero-desc reveal" style="margin-top:20px;">
+          A short video where I introduce myself, talk about what I'm learning, and share what I'm working toward.
+        </p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="num">02 / About</span>
+          <h2 class="title">About Me</h2>
+        </div>
+        <div class="about-grid reveal">
+          <div class="code-frame">
+            <div class="code-frame-bar">
+              <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+              <span class="filename">mark.jpg</span>
+            </div>
+            <img src="photo/Mark.jpg" alt="Photo of Mark John Espinosa">
+          </div>
+          <div class="about-text">
+            <p>
+              Hello! My name is <b>Mark John Espinosa</b>. I am a passionate <i>student</i> who loves
+              technology and continuous learning. With an interest in web development and software
+              engineering, I strive to create meaningful digital experiences that make a difference.
+              I believe in the power of innovation and collaboration to solve real-world problems.
+            </p>
+            <p>
+              Currently, I am improving my skills in web development, learning both frontend and
+              backend technologies. My goal is to become a <b>full-stack developer</b> and contribute
+              to exciting projects that push the boundaries of what's possible on the web.
+            </p>
+            <div class="tag-row">
+              <span class="tag">Web Development</span>
+              <span class="tag">Full-Stack (in progress)</span>
+              <span class="tag">Continuous Learner</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="num">03 / Hobbies</span>
+          <h2 class="title">What I Enjoy</h2>
+        </div>
+        <div class="hobby-grid">
+          <div class="hobby-card reveal">
+            <span class="icon">🎮</span>
+            <h3>Mobile Games</h3>
+            <p>Strategy and puzzle games are my favorites.</p>
+          </div>
+          <div class="hobby-card reveal">
+            <span class="icon">🎬</span>
+            <h3>Anime</h3>
+            <p>I love romance and slice-of-life genres.</p>
+          </div>
+          <div class="hobby-card reveal">
+            <span class="icon">🎵</span>
+            <h3>Music</h3>
+            <p>Pop and old music help me stay motivated.</p>
+          </div>
+          <div class="hobby-card reveal">
+            <span class="icon">💻</span>
+            <h3>Coding Side Projects</h3>
+            <p>Building small applications to enhance my skills.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="num">04 / Skills</span>
+          <h2 class="title">Level Up</h2>
+        </div>
+        <div class="skill-sheet reveal" id="skill-sheet">
+          <div class="skill-row">
+            <div class="skill-label"><span>HTML</span><span class="pct">80%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-percent="80"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span>CSS</span><span class="pct">75%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-percent="75"></div></div>
+          </div>
+          <div class="skill-row">
+            <div class="skill-label"><span>JavaScript</span><span class="pct">60%</span></div>
+            <div class="bar-track"><div class="bar-fill" data-percent="60"></div></div>
+          </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="num">05 / Portfolio</span>
+          <h2 class="title">Projects</h2>
+        </div>
+
+        <div class="project-grid">
+
+          <div class="project-card reveal">
+            <div class="project-thumb"><br><img src="photo/calculator.jpg" alt="Project Screenshot"></div>
+            <div class="project-body">
+              <h3>Calculator</h3>
+              <p>Simple calculator application built with HTML, CSS, and JavaScript.</p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="calculator/calculator.html" target="_blank">Live Demo →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-thumb"><br><img src="photo/dream classroom.jpg" alt="Project Screenshot"></div>
+            <div class="project-body">
+              <h3>Dream Classroom</h3>
+              <p>A simple educational website designed to provide an engaging learning environment for students.</p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="dream classroom/main.html" target="_blank">Live Demo →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div class="project-thumb"><br><img src="photo/mini.jpg" alt="Project Screenshot"></div>
+            <div class="project-body">
+              <h3>Mini study corner website</h3>
+              <p>Simple website for a cozy study space, built with HTML and CSS.</p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="mini study corner website/mini study corner website.html" target="_blank">Live Demo →</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </section>
+
+    <section id="facts">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="num">06 / Fun Facts</span>
+          <h2 class="title">A Little More About Me</h2>
+        </div>
+        <div class="terminal reveal">
+<pre><span class="punc">{</span>
+  <span class="key">"favorite_color"</span><span class="punc">:</span> <span class="str">"Blue"</span><span class="punc">,</span> <span class="punc"></span>
+  <span class="key">"favorite_food"</span><span class="punc">:</span> <span class="str">"Burger"</span><span class="punc">,</span> <span class="punc"></span>
+  <span class="key">"dream_job"</span><span class="punc">:</span> <span class="str">"Software Developer"</span><span class="punc">,</span>
+  <span class="key">"languages"</span><span class="punc">:</span> <span class="punc">[</span><span class="str">"HTML"</span><span class="punc">,</span> <span class="str">"CSS"</span><span class="punc">,</span> <span class="str">"JavaScript"</span><span class="punc">,</span> <span class="str"></span><span class="punc">],</span>
+  <span class="key">"fun_fact"</span><span class="punc">:</span> <span class="str">"Can code for hours without getting tired"</span>
+<span class="punc">}</span></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="resources">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="num">07 / Resources</span>
+          <h2 class="title">Sites I Learn From</h2>
+        </div>
+        <div class="resource-row reveal">
+          <a href="https://www.youtube.com" target="_blank">▸ YouTube — tutorials & educational content</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="reflection">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="num">08 / Reflection</span>
+          <h2 class="title">My Reflection</h2>
+        </div>
+        <div class="reflection-card reveal">
+          <p>
+            I am Mark John Espinosa, a simple boy who wants to be successful in life and achieve my goals, because I want to help my family in the future. We are poor, and that's why I push myself to learn more. My parents also support my goals because they want me to succeed.
+          </p>
+          <p>
+            Right now, though, I'm still far from reaching my goals. I'm just a student learning programming at Mati National Comprehensive High School, currently in Grade 12 - Marigold. I thought it would be easy, but it turned out to be really hard. Still, I have a dream, and that's why I need to keep learning. This year, I must become an independent learner.
+          </p>
+          <p>
+           I want to help my family, especially my mother — I want to help her build a house and buy land for our family. For my father, I want to help him buy a car someday and give both of them a great life. And someday, I also hope to find the girl of my dreams.
+          </p>
+        </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="num">09 / Contact</span>
+        <h2 class="title">Let's Connect</h2>
+      </div>
+      <div class="contact-grid reveal">
+        <div class="contact-item">
+          <span class="label">Email</span>
+          <a class="value" href="mailto:markjohne816@gmail.com">markjohne816@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="label">Phone</span>
+          <span class="value">09973247659</span>
+        </div>
+        <div class="contact-item">
+          <span class="label">Location</span>
+          <span class="value">Sto. Niño, Kalye Putol</span>
+        </div>
+      </div>
+      <div class="social-row reveal">
+        <a href="https://www.instagram.com/markjohn__e?igsh=cXIxbmZ0NmIxdGdq" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/share/18UCpoQAhA/" target="_blank">Facebook</a>
+      </div>
+      <p class="foot-note">Built by Mark John Espinosa.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
